@@ -9,60 +9,6 @@
     color: #2c3e50;
     scroll-behavior: smooth;
   }
-  form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: #2c3e50 solid 3px;
-    margin-left: 30%;
-    margin-right: 30%;
-    padding-bottom: 2%;
-    padding-top: 2%;
-    margin-top: 4%;
-    border-radius: 4%;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-  }
-  input,
-  textarea {
-    padding: 4%;
-    border-radius: 5px;
-    border: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-    font-size: 16px;
-    margin-bottom: 20px;
-    width: 80%;
-    max-width: 400px;
-    resize: none;
-    background-color: #f2f2f2;
-  }
-  
-  input:focus,
-  textarea:focus {
-    outline: none;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-    background-color: #fff;
-  }
-  button[type="submit"] {
-    background-color: #2c3e50;
-    color: white;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #41B3A2;
-  }
 a{
     text-decoration: none;
     color: inherit; 
@@ -241,6 +187,7 @@ footer{
 .proyectos h3{
   padding-top: 2%;
   padding-bottom: 1%;
+  color: #3498db;
 }
 .contacto h2{
   padding-bottom: 3%;
@@ -275,20 +222,7 @@ footer{
   transform: scale(1.2) rotate(10deg);
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
-.btn-pdf {
-  padding: 10px 20px;
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
 
-.btn-pdf:hover {
-  background-color: #45a049;
-}
 
 .fa-sharp:hover{
   animation: bounce 0.5s;

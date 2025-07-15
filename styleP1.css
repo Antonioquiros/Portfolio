@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+    font-style: oblique;
+  }
+  html{
+    background-color: #BDE8CA;
+    color: #2c3e50;
+    scroll-behavior: smooth;
+  }
+  
+button {
+    position: fixed; /* O absolute si está dentro de un contenedor posicionado */
+    bottom: 5%;       /* Distancia desde el borde inferior */
+    right: 5%;        /* Distancia desde el borde derecho */
+    
+    font-size: 115%;
+    background-color: #2c3e50;
+    color: white;
+    font-weight: bold;
+    border-radius: 5%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding: 0.5%;
+}
+button:hover {
+    background-color: #41B3A2;
+}
+a{
+    text-decoration: none;
+    color: inherit; 
+}
+a:hover {
+    text-decoration: none; 
+    color: inherit;
+}
+header{
+   background-color: #2c3e50;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  color: #BDE8CA;
+  text-align: center;
+  font-weight: bold;
+  font-size: 160%;
+}
+
+
