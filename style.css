@@ -116,9 +116,13 @@ main{
 .icono{
   padding-top: -2%;
 }
-.fa-twitter:hover {
+.fa-envelope:hover {
   animation: bounce 0.5s;
-  color: dodgerblue;
+  color: #D44638;
+}
+.fa-phone:hover {
+  animation: bounce 0.5s;
+  color: green;
 }
 .fa-github:hover{
   animation: bounce 0.5s;
@@ -127,10 +131,6 @@ main{
 .fa-linkedin:hover{
   animation: bounce 0.5s;
   color: blue;
-}
-.fa-whatsapp:hover{
-  animation: bounce 0.5s;
-  color: green;
 }
 .social-media{
   display: flex;
@@ -248,7 +248,7 @@ footer{
 
 .gallery-item img {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: block;
   transition: transform 0.3s ease, filter 0.3s ease;
   border-radius: 10px;
