@@ -112,12 +112,16 @@ main{
   animation: bounce 0.5s;
   color: blue;
 }
+.fa-discord:hover{
+    animation: bounce 0.5s;
+  color: #5865F2 ;
+}
 .ubicacion i:hover{
     animation: bounce 0.5s;
 }
 .ubicacion{
   margin-left: 48%;
-  padding-top:auto;
+  padding-top:5%;
 }
 .social-media{
   display: flex;
